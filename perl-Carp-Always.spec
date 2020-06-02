@@ -4,7 +4,7 @@
 #
 Name     : perl-Carp-Always
 Version  : 0.16
-Release  : 3
+Release  : 4
 URL      : https://cpan.metacpan.org/authors/id/F/FE/FERREIRA/Carp-Always-0.16.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/F/FE/FERREIRA/Carp-Always-0.16.tar.gz
 Summary  : 'Warns and dies noisily with stack backtraces'
@@ -100,4 +100,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/Carp/Always.pm
+/usr/lib/perl5/vendor_perl/5.30.3/Carp/Always.pm
